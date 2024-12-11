@@ -13,7 +13,7 @@ import {
 import { Graph } from '@antv/x6'
 
 
-import Edit from '../../components/Edit'
+import Edit from '@/components/Edit'
 
 export default function X6() {
     const containerRef = useRef(null)

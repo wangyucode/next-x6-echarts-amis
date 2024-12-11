@@ -5,7 +5,6 @@ import Link from "next/link";
 export function Nav() {
     const pathname = usePathname();
 
-    console.log(pathname);
     return (
         <Navbar isBordered>
             <NavbarBrand>
